@@ -1,0 +1,2 @@
+export ZDOTDIR=$HOME/.config/zsh
+export ASDF_DIR=$HOME/.asdf
