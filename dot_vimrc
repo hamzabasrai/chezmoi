@@ -17,7 +17,7 @@ set backspace=indent           " ┐
 set backspace+=eol             " │ Allow `backspace`
 set backspace+=start           " ┘ in insert mode.
 
-set backupdir=~/.vim/backups   " Set directory for backup files.
+set backupdir=~/.config/.vim/backups   " Set directory for backup files.
 
 set backupskip=/tmp/*          " ┐ Don't create backups
 set backupskip+=/private/tmp/* " ┘ for certain files.
@@ -33,7 +33,7 @@ set cpoptions+=$               " When making a change, don't
                                " put a `$` sign at the end of
                                " the changed text.
 
-set directory=~/.vim/swaps     " Set directory for swap files.
+set directory=~/.config/.vim/swaps     " Set directory for swap files.
 set encoding=utf-8 nobomb      " Use UTF-8 without BOM.
 set history=5000               " Increase command line history.
 set hlsearch                   " Enable search highlighting.
