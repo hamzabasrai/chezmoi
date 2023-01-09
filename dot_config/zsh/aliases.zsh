@@ -33,8 +33,7 @@ alias gstd="git stash drop"
 alias gstl="git stash list"
 alias gstp="git stash pop"
 
-alias gc="git commit -m"
-alias gcn="git commit -n -m"
+alias gc="git commit"
 alias gca="git commit --amend --no-edit"
 
 alias gco="git checkout"
