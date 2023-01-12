@@ -26,8 +26,8 @@ alias gba="git branch -a" # List all branches
 alias gbd="git branch -D" # Delete a branch
 
 alias gs="git status -s"
-alias gsta="git stash"
-alias gstaa="git stash apply"
+alias gst="git stash"
+alias gsta="git stash apply"
 alias gstc="git stash clear"
 alias gstd="git stash drop"
 alias gstl="git stash list"
