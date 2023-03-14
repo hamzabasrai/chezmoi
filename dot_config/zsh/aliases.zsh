@@ -60,3 +60,4 @@ alias k="kubectl"
 # Fellow
 alias cel="celery -A server.fellow worker -Ofair --beat --loglevel=debug -Q background,search_notes,search_calendar,search,billing,integrations_google_calendar,integrations_google_sync,integrations_office365_calendar,integrations_office365_sync,integrations_asana,integrations_zapier,relationships,celery,realtime"
 alias mpy="./manage.py"
+alias celbeat="celery -A server.fellow beat --loglevel=debug"
