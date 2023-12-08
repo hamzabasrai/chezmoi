@@ -1,3 +1,4 @@
 export ZDOTDIR=$HOME/.config/zsh
 export ASDF_DIR=$HOME/.asdf
 export POETRY_HOME=$HOME/.local/bin
+export POETRY_CONFIG_DIR=$HOME/.config/poetry
