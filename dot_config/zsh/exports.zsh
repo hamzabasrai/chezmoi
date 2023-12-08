@@ -5,4 +5,4 @@ export PYTHONWARNINGS=ignore::DeprecationWarning
 export KUBECONFIG=~/.kube/kube.config
 
 # Homebrew Path
-export PATH=/usr/local/opt/icu4c/bin:$HOME/.local/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
